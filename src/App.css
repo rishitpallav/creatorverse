@@ -1,0 +1,78 @@
+#root {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+ 
+.app-background {
+  background-color: aliceblue;
+  padding: 2%;
+  background-position: center;
+  width: 120vh;
+}
+
+ul.no-bullets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; /* Adjust the gap between items as needed */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.no-bullets li {
+  list-style: none; /* Ensure no bullets are shown */
+}
+
+
+.navbar-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li h2 {
+  display: inline;
+}
+
+button.secondary {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button.secondary:hover {
+  background-color: #777;
+}
+
+.creator-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
