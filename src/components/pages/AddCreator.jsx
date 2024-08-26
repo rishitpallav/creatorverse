@@ -18,6 +18,7 @@ export default function AddCreator() {
             window.alert("Error adding creator");
             console.log('error', error);
         } else {
+            window.alert("Creator Added Successfully");
             window.location.href = "/";
         }
     }
